@@ -74,6 +74,10 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .xs-font {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 /*  
@@ -112,5 +116,9 @@ body {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .xs-font {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
