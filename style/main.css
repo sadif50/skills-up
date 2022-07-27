@@ -1,0 +1,79 @@
+/* Import Font Family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.my-container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.carousel-overlay {
+  background-color: rgba(29, 29, 29, 0.7);
+  top: 0;
+  right: 0;
+}
+
+/*  
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\
+     Medium Devices
+    ////////////////////////////
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-heading {
+    font-size: 2rem;
+  }
+}
+
+/*  
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\
+     Small Devices
+    ////////////////////////////
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .carousel-heading {
+    font-size: 1.5rem;
+  }
+
+  /* This style used for multiline text elipsis */
+  .banner-text {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 2rem;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/*  
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\
+     Extra Small Devices
+    ////////////////////////////
+*/
+@media screen and (max-width: 575px) {
+  .my-container {
+    width: 94%;
+  }
+  .carousel-heading {
+    font-size: 1rem;
+  }
+  /* This style used for multiline text elipsis */
+  .banner-text {
+    font-size: 12px !important;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 24px;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
