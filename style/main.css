@@ -16,7 +16,17 @@ body {
   top: 0;
   right: 0;
 }
-
+.feedback-ratting {
+  font-size: 24px;
+  color: #f59e0b;
+}
+.feedback-prev,
+.feedback-next {
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  border-radius: 50%;
+}
 /*  
     \\\\\\\\\\\\\\\\\\\\\\\\\\\\
      Medium Devices
